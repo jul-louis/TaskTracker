@@ -52,7 +52,7 @@ function ToDoList() {
         </div>
         <CreateTask />
 
-        <p className="text-slate-500 dark:text-slate-400 my-4 text-sm">
+        <p className="text-slate-700 dark:text-slate-400 my-4 text-sm">
           If you want to build a ship, don't drum up people to collect wood and
           don't assign them tasks and work, but rather teach them to long for
           the endless immensity of the sea.
@@ -142,7 +142,7 @@ function ToDoList() {
                       Delete
                     </button>
                   </div>
-                  <p className="bg-slate-400 dark:bg-slate-900 p-4 my-2 break-all rounded-lg">
+                  <p className="bg-slate-200 dark:bg-slate-900 text-black p-4 my-2 break-all rounded-lg">
                     {data.desc}
                   </p>
                   <p className="mt-4">
