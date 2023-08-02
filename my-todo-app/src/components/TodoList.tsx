@@ -76,8 +76,8 @@ function ToDoList() {
                   key={data.id}
                   className={
                     data.state === 1
-                      ? "bg-slate-300 dark:bg-slate-950 hover:bg-slate-950 hover:outline hover:outline-2 bg-slate-300 text-black dark:text-white p-4 rounded-lg"
-                      : "bg-slate-400 dark:bg-slate-700 hover:bg-slate-950 hover:outline hover:outline-2 bg-slate-300 text-black dark:text-white p-4 rounded-lg"
+                      ? "bg-slate-300 dark:bg-slate-950 hover:text-white hover:bg-slate-950 hover:outline hover:outline-2 bg-slate-300 text-black dark:text-white p-4 rounded-lg"
+                      : "bg-slate-400 dark:bg-slate-700 hover:text-white hover:bg-slate-950 hover:outline hover:outline-2 bg-slate-300 text-black dark:text-white p-4 rounded-lg"
                   }
                 >
                   <h2 className="text-2xl font-medium break-all">
@@ -137,7 +137,7 @@ function ToDoList() {
                         setList(newTasks);
                         localStorage.setItem("tasks", JSON.stringify(newTasks));
                       }}
-                      className="my-4 mx-4 bg-black hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                      className="my-4 mx-4 bg-gray-300 text-black hover:text-white dark:bg-black hover:bg-red-700 dark:text-white font-bold py-2 px-4 rounded"
                     >
                       Delete
                     </button>
