@@ -142,7 +142,7 @@ function ToDoList() {
                       Delete
                     </button>
                   </div>
-                  <p className="bg-slate-200 dark:bg-slate-900 text-black p-4 my-2 break-all rounded-lg">
+                  <p className="bg-slate-200 dark:bg-slate-900 text-black dark:text-white p-4 my-2 break-all rounded-lg">
                     {data.desc}
                   </p>
                   <p className="mt-4">
