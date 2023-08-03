@@ -1,6 +1,6 @@
 # Task Tracker
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fcb89c74-4ed6-4818-bf37-7395ea6a45ea/deploy-status)](https://app.netlify.com/sites/moonlit-arithmetic-4ae059/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fcb89c74-4ed6-4818-bf37-7395ea6a45ea/deploy-status)](https://app.netlify.com/sites/moonlit-arithmetic-4ae059/deploys)\
 Access: https://moonlit-arithmetic-4ae059.netlify.app
 
 ## React + TypeScript + Vite
